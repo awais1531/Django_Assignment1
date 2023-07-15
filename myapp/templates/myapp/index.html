@@ -1,0 +1,9 @@
+
+    {% extends 'myapp/base.html' %}
+
+{%block title%}Index{%endblock%}
+    
+    {%block content%}
+    <h1>This is index page</h1>
+    <p><a href="{% url 'myapp:detail'%}">Go to Detail page</a></p>
+    {%endblock%}
